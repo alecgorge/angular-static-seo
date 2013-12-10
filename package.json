@@ -1,0 +1,31 @@
+{
+  "name": "angular-static-seo",
+  "version": "0.1.0",
+  "description": "Works with alecgorge/express-static-angular-seo to deliever static version of websites to bots (google, twitter, facebook, etc)",
+  "main": "angular-static-seo.js",
+  "scripts": {
+    "compile": "grunt build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alecgorge/angular-static-seo.git"
+  },
+  "keywords": [
+    "angular",
+    "seo",
+    "nginx",
+    "static"
+  ],
+  "author": "Alec Gorge <alecgorge@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "8ef18b7d02cb1b093eadd3fbcbf895138b400035",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-coffee": "~0.7.0",
+    "time-grunt": "~0.2.3",
+    "load-grunt-tasks": "~0.2.0"
+  }
+}
