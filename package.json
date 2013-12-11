@@ -1,6 +1,6 @@
 {
   "name": "angular-static-seo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Works with alecgorge/express-static-angular-seo to deliever static version of websites to bots (google, twitter, facebook, etc)",
   "main": "angular-static-seo.js",
   "scripts": {
