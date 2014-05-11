@@ -17,7 +17,7 @@ bower install angular-static-seo --save
 
 2. Add `seo` as a dependency: `app = angular.module('app-name', ['seo'])`
 
-3. Call `$scope.startedLoading()` for every time an asyncronous event starts and `$scope.startedLoading()` once each is complete. When they are all complete, `express-static-angular-seo` will know to capture the HTML and send it to the Googlebot/Twitterbot etc.
+3. Call `$scope.startedLoading()` for every time an asyncronous event starts and `$scope.finishedLoading()` once each is complete. When they are all complete, `express-static-angular-seo` will know to capture the HTML and send it to the Googlebot/Twitterbot etc.
 
 ## Example
 
